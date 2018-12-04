@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,400,700" rel="stylesheet">
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this innostarter kit in a modern browser that supports CSS Variables.");</script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r79/three.min.js"></script>
+		<script>
+            function gotToNpl(){
+                document.querySelector('#nlp').scrollIntoView({ behavior: 'smooth' });
+            }
+		</script>
+	</head>
+	<body class="base">
+		<main>
+			<div class="content content--fixed">
+				<div class="debug">
+					<svg class="icon icon--debug" title="Toggle Debug Mode"><use xlink:href="#icon-debug"></use></svg>
+				</div>
+			</div>
+			<div class="loader"></div>
+			<div class="content-outer">
+				<div class="content-inner">
+					<h1>vdn gaite diplôme</h1>
+					<button class="start" type="button" onclick="gotToNpl()">Start</button>
+				</div>
+			</div>
+			<div id="nlp" class="content-outer-nlp">
+				<div class="content-inner">
+					<form id="nl-form" class="nl-form" action="/stack.html" method="get">
+						Choix de l'épreuve
+						<select name="language" required>
+							<option value="scratch" selected>Scratch</option>
+							<option value="twine">Twine</option>
+							<option value="processing">Processing</option>
+							<option value="chatbot">Chatbot</option>
+							<option value="javascript">Html/CSS/Javascript</option>
+						</select>
+						<div class="nl-submit-wrap">
+							<button class="nl-submit" type="submit">Allez</button>
+						</div>
+						<div class="nl-overlay"></div>
+					</form>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>

@@ -1,0 +1,40 @@
+@import 'colors';
+
+li {
+  cursor: pointer;
+}
+
+.font {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 500;
+}
+
+.topbar{
+  margin-bottom: 5em;
+  margin-top: 5em;
+}
+
+.navbar {
+  margin-top: 3em;
+}
+
+.navlink {
+  cursor: pointer;
+}
+
+.back {
+  text-align: right;
+  margin-top: 1em;
+}
+
+.card {
+  margin:1em;
+}
+
+.tab {
+  color:$color-nlp;
+}
+
+.why {
+  color:$color-why;
+}
